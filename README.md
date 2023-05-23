@@ -2,7 +2,7 @@
 
 ## Installation
 
-##### Option 1: Use llg-test-sdk-onboarding
+##### Option 1: Use llg-sdk-onboarding
 
 Install with NPM
 
@@ -55,6 +55,7 @@ await window.LLGOnboarding.init(options);
 
 | Option         | Type     | Required? | Default value | Description                                                                                                                                                         |
 | :------------- | :------- | :-------- | :------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `el`          | `string` | **YES**    | -       | SDK mounts to the  DOM, eg: `#llg-kyc`,
 | `env`          | `string` | **NO**    | `prod`        | LianLian Global environment you want to integrate your application with. Options include: `staging`, `prod`                                                   |
 | `langKey`      | `string` | **NO**    | `en`          | Language. Options include: `en`                                                                                                                             |
 | `token`     | `string` | **YES**   | -             | |
