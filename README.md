@@ -59,10 +59,10 @@ await window.LLGOnboarding.init(options);
 | `env`          | `string` | **NO**    | `prod`        | LianLian Global environment you want to integrate your application with. Options include: `staging`, `prod`                                                   |
 | `langKey`      | `string` | **NO**    | `en`          | Language. Options include: `en`                                                                                                                             |
 | `token`     | `string` | **YES**   | -             | |
-| `kycType`     | `string` | **YES**   | -         |  KYC type. Options include: `VN     `                                       |
-| `mountedCb` | `function` | **NO**   | -             |
-| `successCb` | `function` | **NO**   | -             |
-| `failedCb` | `function` | **NO**   | -             |
+| `kycType`     | `string` | **YES**   | -         |  KYC type. Options include: `VN`,`SG`,`TH`,`US`,`GB`                                        |
+| `mountedCb` | `function` | **NO**   | -             | Executed when the SDK loads successfully
+| `successCb` | `function` | **NO**   | -             | Execute after the KYC information is successfully submitted
+| `failedCb` | `function` | **NO**   | -             | Executed after KYC information submission fails
 
 
 
