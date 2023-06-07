@@ -1,6 +1,6 @@
 export type LLGEnv = 'staging' | 'prod';
 
-export type KYC_TYPE = 'VN'
+export type KYC_TYPE = 'VN' | 'SG' | 'TH' | 'US' | 'GB';
 
 /**
  * Global init option config for LLG javascript SDK
