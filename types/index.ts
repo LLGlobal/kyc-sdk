@@ -2,6 +2,11 @@ export type LLGEnv = 'staging' | 'prod';
 
 export type KYC_TYPE = 'VN' | 'SG' | 'TH' | 'US' | 'GB';
 
+export type OPTIONS_TYPE = {
+    kycData: any;
+    readonly: any;
+}
+
 /**
  * Global init option config for LLG javascript SDK
  */
@@ -11,8 +16,7 @@ export type InitOptions = {
      */
     el: string;
     /**
-     * Indicate which LLG integration env your merchant site would like to connect with
-     * If not provide default will be prod which point to [LLG Checkout](https://checkout.LLG.com)
+     * env
      */
     env?: LLGEnv;
     /**
@@ -27,6 +31,10 @@ export type InitOptions = {
     * kycType
     */
     kycType: KYC_TYPE;
+    /**
+    * kycType
+    */
+    options: KYC_TYPE;
     /**
      * mountedCb
      */
