@@ -41,6 +41,10 @@ const options = {
     langKey: 'en',
     token: 'Bearer US_3AT4IwessFmm8H1FYBmV04tHiKMCy',
     kycType: 'VN',
+    options: {
+        kycData:{},
+        readonly: []
+    };
     mountedCb: () => {},
     successCb: () => {},
     failedCb: () => {},
@@ -60,6 +64,7 @@ await window.LLGOnboarding.init(options);
 | `langKey`      | `string` | **NO**    | `en`          | Language. Options include: `en`                                                                                                                             |
 | `token`     | `string` | **YES**   | -             | |
 | `kycType`     | `string` | **YES**   | -         |  KYC type. Options include: `VN`,`SG`,`TH`,`US`,`GB`                                        |
+| `options`     | `object` | **NO**   | -         |  Optional incoming SDK parameters. Includes kycData and readonly parameters.  |
 | `mountedCb` | `function` | **NO**   | -             | Executed when the SDK loads successfully
 | `successCb` | `function` | **NO**   | -             | Execute after the KYC information is successfully submitted
 | `failedCb` | `function` | **NO**   | -             | Executed after KYC information submission fails
