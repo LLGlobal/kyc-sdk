@@ -34,7 +34,7 @@ export type InitOptions = {
     /**
     * kycType
     */
-    options: KYC_TYPE;
+    options: OPTIONS_TYPE;
     /**
      * mountedCb
      */
