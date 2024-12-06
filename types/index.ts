@@ -1,6 +1,6 @@
-export type LLGEnv = 'staging' | 'prod';
+export type LLGEnv = 'staging' | 'prod' | 'ste';
 
-export type KYC_TYPE = 'VN' | 'SG' | 'TH' | 'US' | 'GB';
+export type KYC_TYPE = 'VN' | 'SG' | 'TH' | 'US' | 'GB' | 'CN' | 'BR';
 
 export type OPTIONS_TYPE = {
     kycData: any;
