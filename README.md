@@ -20,12 +20,17 @@ yarn add llg-sdk-onboarding
 
 Staging:
 ```html
-<script src="https://eu-ewallet-share-bucket.lianlianglobal.com/sdk/onboarding/v2/prod/index.min.js" />
+<script src="https://eu-ewallet-share-bucket.lianlianglobal.com/sdk/onboarding/v4/staging/index.min.js" />
+```
+
+STE:
+```html
+<script src="https://eu-ewallet-share-bucket.lianlianglobal.com/sdk/onboarding/v4/ste/index.min.js" />
 ```
 
 Prod:
 ```html
-<script src="https://eu-ewallet-share-bucket.lianlianglobal.com/sdk/onboarding/v2/prod/index.min.js" />
+<script src="https://eu-ewallet-share-bucket.lianlianglobal.com/sdk/onboarding/v4/prod/index.min.js" />
 ```
 
 ## Initialization
