@@ -13,7 +13,7 @@ import {
     }
   }
 
-  const SDK_VERSION = 'v4';
+  const SDK_VERSION = 'v5';
 
   const ENV_HOST = {
     staging: `eu-ewallet-share-bucket.lianlianglobal.com/sdk/onboarding/${SDK_VERSION}/staging`,
